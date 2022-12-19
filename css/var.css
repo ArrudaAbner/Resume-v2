@@ -1,0 +1,10 @@
+/*Variaveis*/
+:root {
+    --global-background-color: #FDFBFA;
+    --global-primary-color: #404259;
+    --global-secondary-color: #63657B;
+    --global-title-font: 'League Spartan', sans-serif;
+    --global-text-font: 'Montserrat', sans-serif;
+    --global-title-size: 28px;
+    --global-text-size: 20px;
+}

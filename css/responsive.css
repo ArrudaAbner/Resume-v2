@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+    .profilePicture {
+        margin: 0;
+    }
+
+    .container--header {
+        flex-direction: column;
+        height: 70vh;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .header-title, .header-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 640px){
+    .info--text {
+        font-size: 18px;
+    }
+
+    .info--title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 465px) {
+    .footer--container {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+}
+
+@media (max-width: 415px) {
+    .main--title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main-secondary-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .info--text {
+        font-size: 16px;
+        text-align: start;
+    }
+}

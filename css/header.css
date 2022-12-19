@@ -1,0 +1,36 @@
+/*header*/
+.container--header {
+    align-items: center;
+    background:  linear-gradient( var(--global-primary-color) 95%, var(--global-secondary-color) 5%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    height: 33vh;
+    width: 100%;
+}
+
+.profilePicture {
+    border: 6px solid var(--global-secondary-color);
+    border-radius: 50%;
+    margin-top: 4rem;
+    width: 275px;
+}
+
+.header-info {
+    color: #fdfbfa;
+}
+
+.header-title {
+    font-family: var(--global-title-font);
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: end;
+}
+
+.header-text {
+    font-family: var(--global-text-font);
+    font-size: 20px;
+    text-align: end;
+    padding: 4px 0;
+}
