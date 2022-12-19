@@ -38,6 +38,14 @@
         width: 225px;
     }
 
+    .header-text {
+        font-size: 18px;
+    }
+
+    .header-info {
+        padding-bottom: 10px;
+    }
+
     .main--title {
         font-size: 20px;
         text-align: center;
